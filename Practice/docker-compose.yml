@@ -6,5 +6,4 @@ services:
     build: .
     ports:
       - "5000:5000"
-    volumes:
-      - ./app/users.db:/app/users.db
+      
